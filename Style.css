@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#ebe8e8;;
+}
+nav{
+    width: 100%;
+    height: 80px;
+   background-color: #7F1431;
+    font-family: 'Exo', sans-serif;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 8px 26px 36px -7px rgba(0, 0, 0, 0.123);
+    background-color: #f7f7f7;
+
+}
+.IntroContainer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    width: 50%;
+    height: 100px;
+}
+.box1 p{
+    font-family: "Exo";
+    font-size: 12px;
+    margin-top: 20px;
+    padding-left: 10px;
+    text-align: center; 
+    color: #7F1431;
+
+}
+.box2{
+    width: 50%;
+    height: 100px;
+}
+.box2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 10px;
+}
+.loginContainer{
+    width: 100%; height: 75%;
+    border-radius: 0 0 10px 10px ;
+}
+.EmailContainer{
+    padding-top: 15px;
+}
+.UserEmail{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.UserEmailInput{
+    margin-left: 13px;
+    width: 90%;
+    border:none;
+    border-bottom: 1px solid #7F1431;
+    background-color: #f7f7f7;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.PasswordContainer{
+    padding-top: 15px;
+}
+.UserPassword{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.UserPasswordInput{
+    margin-left: 13px;
+    width: 90%;
+    border:none;
+    border-bottom: 1px solid #7F1431;
+    background-color: #f7f7f7;
+}
+.UserInfoSubmit{
+    margin-top: 30px;
+}
+.UserPasswordForget{
+    margin-left: 200px;
+}
+.UserPasswordForgetLink{
+    font-size: 12px;
+    text-decoration: none;
+    color: #c4c4c4;
+    text-shadow: 5px #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.UserInfoSubmit{
+    text-align: center;
+}
+.btn{
+    width: 250px;
+    height: 25px;
+    cursor: pointer;
+    background-color: #7F1431;
+    border: none;
+    color: #f7f7f7;
+    border-radius: 4px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.OtherOptions{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #252525;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.OtherOptions img{
+    margin-top: 10px;
+    margin-left: 4px;
+    width: 20px;
+    height: 20px;
+}
